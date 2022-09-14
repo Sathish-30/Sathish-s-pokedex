@@ -26,7 +26,7 @@ const displayPokemon = (pokemon) => {
       <h2 class="card-title">  
         ${pokeman.id}.${pokeman.name}
       </h2>
-      <p class="card-subtitle">Type :${pokeman.type}</p>
+      <p class="card-subtitle">Type : ${pokeman.type}</p>
     </li>
   `
     )
