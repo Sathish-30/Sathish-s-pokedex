@@ -21,12 +21,12 @@ const displayPokemon = (pokemon) => {
   const pokemonString = pokemon
     .map(
       (pokeman) => `
-    <li>
-      <img src="${pokeman.image}" />
-      <h2>
+    <li class="card">
+      <img class="card-image" src="${pokeman.image}" />
+      <h2 class="card-title">  
         ${pokeman.id}.${pokeman.name}
       </h2>
-      <p>Type :${pokeman.type}</p>
+      <p class="card-subtitle">Type :${pokeman.type}</p>
     </li>
   `
     )
